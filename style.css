@@ -1,0 +1,16 @@
+.tutor-dc-download-button {
+    display: none;
+}
+.tutor-dc-print-button {
+    display: none;
+}
+div#qrcode-container {
+    display: flex;
+    justify-content: end;
+}
+@media(max-width:600px) {
+	div#qrcode-container {
+    justify-content: center;
+}
+}
+
